@@ -4,7 +4,7 @@ import { ConfigModule } from '@nestjs/config';
 import { MongooseModule } from '@nestjs/mongoose';
 import { CatModule } from './cat/cat.module';
 
-const DB_CHAIN = 'mongodb+srv://devapi:ctBTn8SStd1aWG2p@develop.xhstm.mongodb.net/ufounders?retryWrites=true&w=majority';
+const DB_CHAIN = '';
 
 @Module({
   imports: [
